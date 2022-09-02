@@ -76,7 +76,7 @@ void printArray(int myArray[], int arraySize){
 
 //question 2
 bool searchArray(int myArray[], int arraySize, int myInput){
-    for (int i=0; i<myArray; i++){
+    for (int i=0; i<arraySize; i++){
         if ( myArray[i] == myInput)
             return true;
     }
